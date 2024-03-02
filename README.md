@@ -47,7 +47,7 @@ opensearch_ips = [
 ```
 
 You can access salt-master through admin bastion host.
-To login enter the command below:
+To login enter the command below:\
 `ssh ubuntu@admin_ip`\
 `ssh salt`
 
@@ -55,6 +55,6 @@ You need to wait for ~5 minutes till minions are ready to accept connections.
 Then you can test, if they are ready:
 `sudo salt '*' test.ping`
 
-If they are ready, you can apply nginx and iptables states by commands below:
+If they are ready, you can apply nginx and iptables states by commands below:\
 `sudo salt '*' state.apply nginx`\
 `sudo salt '*' state.apply iptables`
