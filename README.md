@@ -1,8 +1,8 @@
 # OTUS_Homework_11
  
-Project creates one YC LB, 2 nginx proxy server + salt minions, 2 nginx+php-fpm+wordpress backends, pxc cluster+proxysql(3 servers) and salt master.\
+Project creates one YC LB, 2 nginx proxy server + salt minions, 2 nginx+php-fpm+wordpress backends, pxc cluster+proxysql(3 servers) and salt master.
 ### Project Scheme
-![Project Scheme](https://github.com/makkorostelev/OTUS_Homework_11/blob/main/Screenshots/scheme.png)\
+![Project Scheme](https://github.com/makkorostelev/OTUS_Homework_11/blob/main/Screenshots/scheme.png)
 
 
 ### Prerequisite
@@ -10,8 +10,8 @@ Project creates one YC LB, 2 nginx proxy server + salt minions, 2 nginx+php-fpm+
 - **Ansible 2.9+**
 
 To work with the project you need to write your data into variables.tf.\
-![Variables](https://github.com/makkorostelev/OTUS_Homework_11/blob/main/Screenshots/variables.png)\
-Then enter the commands:
+![Variables](https://github.com/makkorostelev/OTUS_Homework_11/blob/main/Screenshots/variables.png)
+Then enter the commands:\
 `terraform init`\
 `terraform apply`
 
