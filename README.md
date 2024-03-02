@@ -10,7 +10,7 @@ Project creates one YC LB, 2 nginx proxy server + salt minions, 2 nginx+php-fpm+
 - **Ansible 2.9+**
 
 To work with the project you need to write your data into variables.tf.\
-![Variables](https://github.com/makkorostelev/OTUS_Homework_11/blob/main/Screenshots/variables.png)
+![Variables](https://github.com/makkorostelev/OTUS_Homework_11/blob/main/Screenshots/variables.png)\
 Then enter the commands:\
 `terraform init`\
 `terraform apply`
